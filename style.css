@@ -1,0 +1,308 @@
+body {
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name {
+    background-color: white;
+    padding-top: 0.8em;
+    margin: 0;
+    font-size: 50pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.summary {
+    background-color: white;
+    padding: 1em;
+    padding-bottom: 2em;
+    margin: 0;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+    width: 53px;
+    float: right;
+    padding-top: 3px;
+    padding-right: 50px;
+}
+.img1 {
+    max-width: 100%;
+}
+.foot {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5pt;
+    padding: 15px;
+}
+/* About Me page style */
+
+.who {
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+    margin: 0;
+    font-size: 50pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.pg2p1 {
+    background-color: white;
+    padding: 0 14.5em 2em 14.5em;
+    margin: 0;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.goal {
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+    margin: 0;
+    font-size: 50pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.pg2p2 {
+    background-color: white;
+    padding: 0 14.5em 2em 14.5em;
+    margin: 0;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pg2p3 {
+    background-color: white;
+    padding: 0 14.5em 4em 14.5em;
+    margin: 0;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Projects page style*/
+
+.web {
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+    margin: 0;
+    font-size: 45pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.wp1 {
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+    background-color: white;
+}
+    .wp1-image {
+        border: 10px solid lightgrey;
+        align-self: center;
+        max-width: 100%;
+        width: 700px;    
+    }
+    .img-cap1 {
+        max-width: 100%;
+        font-size: 13pt;
+        font-family: Arial, Helvetica, sans-serif;
+        align-self: center;
+        width: 720px;
+        text-align: center;
+        margin-bottom: 5em;
+        padding-top: 0.7em;
+        padding-bottom: 1em;
+        background-color: lightgrey;
+    }
+.wp2 {
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+    background-color: white;
+}
+    .wp2-image {
+        border: 10px solid lightgrey;
+        align-self: center;
+        max-width: 100%;
+        width: 700px;
+    }
+    .img-cap2 {
+        max-width: 100%;
+        font-size: 13pt;
+        font-family: Arial, Helvetica, sans-serif;
+        align-self: center;
+        width: 720px;
+        text-align: center;
+        margin-bottom: 5em;
+        padding-top: 0.7em;
+        padding-bottom: 1em;
+        background-color: lightgrey;
+    }
+.wp3 {
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+    background-color: white;
+}
+    .wp3-image {
+        border: 10px solid lightgrey;
+        align-self: center;
+        max-width: 100%;
+        width: 700px;
+    }
+    .img-cap3 {
+        max-width: 100%;
+        font-size: 13pt;
+        font-family: Arial, Helvetica, sans-serif;
+        align-self: center;
+        width: 720px;
+        text-align: center;
+        margin-bottom: 5em;
+        padding-top: 0.7em;
+        padding-bottom: 1em;
+        background-color: lightgrey;
+    }
+.graph {
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin: 0;
+    font-size: 45pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.gp1 {
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+    background-color: white;
+}
+    .gp1-image {
+        border: 10px solid lightgrey;
+        align-self: center;
+        max-width: 100%;
+        width: 500px;
+    }
+    .img-cap4 {
+        max-width: 100%;
+        font-size: 13pt;
+        font-family: Arial, Helvetica, sans-serif;
+        align-self: center;
+        width: 520px;
+        text-align: center;
+        margin-bottom: 5em;
+        padding-top: 0.7em;
+        padding-bottom: 1em;
+        background-color: lightgrey;
+    }
+.gp2 {
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+    background-color: white;
+}
+    .gp2-image {
+        border: 10px solid lightgrey;
+        align-self: center;
+        max-width: 100%;
+        width: 700px;
+    }
+    .img-cap5 {
+        max-width: 100%;
+        font-size: 13pt;
+        font-family: Arial, Helvetica, sans-serif;
+        align-self: center;
+        width: 720px;
+        text-align: center;
+        margin-bottom: 5em;
+        padding-top: 0.7em;
+        padding-bottom: 1em;
+        background-color: lightgrey;
+    }
+.gp3 {
+    max-width: 100%;
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+    background-color: white;
+}
+    .gp3-image {
+        border: 10px solid lightgrey;
+        align-self: center;
+        max-width: 100%;
+        width: 500px;
+        padding: 0;
+    }
+    .img-cap6 {
+        max-width: 100%;
+        font-size: 13pt;
+        font-family: Arial, Helvetica, sans-serif;
+        align-self: center;
+        width: 520px;
+        text-align: center;
+        margin-bottom: 5em;
+        padding-top: 0.7em;
+        padding-bottom: 1em;
+        background-color: lightgrey;
+    }
+.project-link {
+    text-decoration: none;
+    color: black;
+}
+
+/* Contact Me Page style */
+
+.contact-info {
+    max-width: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+    background-color: white;
+}
+.contact-me {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35pt;
+}
+.mail {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact { 
+    padding: 1em;   
+}
+#name {
+    max-width: 100%;
+    width: 400px;
+    padding: 1em;
+    border-style: solid;
+    border-radius: 20px;   
+}
+#email {
+    max-width: 100%;
+    width: 400px;
+    padding: 1em;
+    border-style: solid;
+    border-radius: 20px;
+}
+#message {
+    max-width: 100%;
+    max-width: 100%;
+    height: 200px;
+    width: 400px;
+    padding: 1em;
+    border-style: solid;
+    border-radius: 20px;
+}
+#submit-button {
+    margin-top: 1em;
+    padding: 1em;
+    width: 100px;
+    border: 2px solid lightgrey;
+}
+#submit-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+

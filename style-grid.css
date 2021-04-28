@@ -1,0 +1,331 @@
+.body1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav nav nav"
+    "name name name"
+    "sum sum sum"
+    "img1 img1 img1"
+    "footer footer footer";
+}
+.body2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas:
+    "nav nav nav"
+    "who who who"
+    "p1 p1 p1"
+    "p2 p2 p2"
+    "goal goal goal"
+    "p3 p3 p3"
+    "footer footer footer";
+}
+.body3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav"
+    "web"
+    "wp1"
+    "cap1"
+    "wp2"
+    "cap2"
+    "wp3"
+    "cap3"
+    "graph"
+    "gp1"
+    "cap4"
+    "gp2"
+    "cap5"
+    "gp3"
+    "cap6"
+    "footer";
+}
+.body4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav"
+    "contact"
+    "footer";
+}
+.img-cap1 {
+    grid-area: cap1;
+}
+.img-cap2 {
+    grid-area: cap2;
+}
+.img-cap3 {
+    grid-area: cap3;
+}
+.img-cap4 {
+    grid-area: cap4;
+}
+.img-cap4 {
+    grid-area: cap5;
+}
+.img-cap4 {
+    grid-area: cap6;
+}
+.contact-info {
+    grid-area: contact;
+}
+.web {
+    grid-area: web;
+}
+.wp1 {
+    grid-area: wp1;
+}
+.wp2 {
+    grid-area: wp2;
+}
+.wp3 {
+    grid-area: wp3;
+}
+.graph {
+    grid-area: graph;
+}
+.gp1 {
+    grid-area: gp1;
+}
+.gp2 {
+    grid-area: gp2;
+}
+.gp3 {
+    grid-area: gp3;
+}
+.img2 {
+    grid-area: img2;
+}
+.goal {
+    grid-area: goal;
+}
+.pg2p1 {
+    grid-area: p1;
+}
+.pg2p2 {
+    grid-area: p2;
+}
+.pg2p3 {
+    grid-area: p3;
+}
+.who {
+    grid-area: who;
+}
+.foot {
+    grid-area: footer;
+}
+.img1 {
+    grid-area: img1;
+}
+.summary {
+    grid-area: sum;
+}
+.name {
+    grid-area: name;
+}
+.nav {
+    grid-area: nav;
+    background: black;
+}
+.nav-menu a {
+    clear: left;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    line-height: 55px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-menu a:hover {
+    background-color: limegreen;
+}
+label {
+    font-size: 28pt;
+    line-height: 45px;
+    color: white;
+    display: none;
+    width: 26px;
+    float: left;
+    padding-left: 5px;
+}
+#ham {
+    display: none; 
+}
+@supports (grid-area: auto) {
+    @media only screen and (max-width: 800px) {
+        .body1 {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "nav nav"
+            "name name"
+            "sum sum"
+            "img1 img1"
+            "footer footer";
+        }
+        .body2 {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "nav nav"
+            "who who who"
+            "p1 p1"
+            "p2 p2 p2"
+            "goal goal goal"
+            "p3 p3 p3"
+            "footer footer";
+        }
+        .pg2p1 {
+            padding: 0 8em 2em 8em;
+        }
+        .pg2p2 {
+            padding: 0 8em 2em 8em;
+        }
+        .pg2p3 {
+            padding: 0 8em 2em 8em;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .body1 {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "nav"
+            "name"
+            "sum"
+            "img1"
+            "footer";
+        }
+        .body2 {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "nav"
+            "who"
+            "p1"
+            "p2"
+            "goal"
+            "p3"
+            "footer";
+        }
+        .body3 {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "nav"
+            "web"
+            "wp1"
+            "cap1"
+            "wp2"
+            "cap2"
+            "wp3"
+            "cap3"
+            "graph"
+            "gp1"
+            "cap4"
+            "gp2"
+            "cap5"
+            "gp3"
+            "cap6"
+            "footer";
+        }
+        .web {
+            font-size: 30pt;
+        }
+        .gp1-image {
+            width: 320px;
+        }
+        .img-cap1 {
+            width: 435px;
+            font-size: 11pt;
+        }
+        .gp3-image {
+            width: 350px;
+        }
+        .img-cap3 {
+            width: 435px;
+            font-size: 11pt;
+        }
+        .gp2-image {
+            width: 400px;
+        }
+        .img-cap2 {
+            width: 435px;
+            font-size: 11pt;
+        }
+        .img-cap4 {
+            width: 340px;
+            font-size: 11pt;
+        }
+        .img-cap5 {
+            width: 420px;
+            font-size: 11pt;
+        }
+        .img-cap6 {
+            width: 370px;
+            font-size: 11pt;
+        }
+        .wp1-image {
+            border: none;
+        }
+        .wp2-image {
+            border: none;
+        }
+        .wp3-image {
+            border: none;
+        }
+        .graph {
+            font-size: 30pt;
+        }
+        .pg2p1 {
+            font-size: 12pt;
+            padding: 0 2em 2em 2em;
+        }
+        .pg2p2 {
+            font-size: 12pt;
+            padding: 0 2em 2em 2em;
+        }
+        .pg2p3 {
+            font-size: 12pt;
+            padding: 0 2em 2em 2em;
+        }
+        .name {
+            font-size: 30pt;
+        }
+        .summary {
+            font-size: 12pt;
+        }
+        .logo {
+            display: none;
+        }
+        label {
+            display: block;
+            cursor: pointer;
+        }
+        .nav-menu {
+            text-align: center;
+            display: none;
+        }
+        .nav-menu a {
+            display: block;
+        }
+        #ham:checked + .nav-menu {
+            display: block;
+        }
+        #name {
+            width: 300px;
+        }
+        #email {
+            width: 300px
+        }
+        #message {
+            width: 300px;
+        }
+    }
+}
